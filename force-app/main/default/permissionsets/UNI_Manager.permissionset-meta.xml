@@ -227,21 +227,6 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
-        <field>User.EDY_ORGCUSTOM__DB__c</field>
-        <readable>false</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
-        <field>User.EDY_ORGCUSTOM__Old_First_Name__c</field>
-        <readable>false</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
-        <field>User.EDY_ORGCUSTOM__Old_Last_Name__c</field>
-        <readable>false</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
         <field>User.Employee_Number__c</field>
         <readable>false</readable>
     </fieldPermissions>
