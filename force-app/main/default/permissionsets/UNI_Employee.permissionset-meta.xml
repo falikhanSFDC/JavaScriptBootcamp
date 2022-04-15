@@ -265,6 +265,7 @@
         <field>User.Primary_Role__c</field>
         <readable>false</readable>
     </fieldPermissions>
+    
     <fieldPermissions>
         <editable>false</editable>
         <field>User.Show_on_Checkin_Map__c</field>
@@ -288,36 +289,6 @@
     <fieldPermissions>
         <editable>false</editable>
         <field>User.analyticsdemo_batch_id__c</field>
-        <readable>false</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
-        <field>User.pi__Can_View_Not_Assigned_Prospects__c</field>
-        <readable>false</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
-        <field>User.pi__Pardot_Api_Key__c</field>
-        <readable>false</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
-        <field>User.pi__Pardot_Api_Version__c</field>
-        <readable>false</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
-        <field>User.pi__Pardot_User_Id__c</field>
-        <readable>false</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
-        <field>User.pi__Pardot_User_Key__c</field>
-        <readable>false</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
-        <field>User.pi__Pardot_User_Role__c</field>
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
