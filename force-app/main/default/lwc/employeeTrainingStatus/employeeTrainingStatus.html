@@ -1,0 +1,84 @@
+<template>
+
+    <lightning-card>
+        <!-- Loading animation -->
+        <div id="loading" if:false={loaded}><lightning-spinner alternative-text="Loading" size="medium"></lightning-spinner></div>
+
+        <div id="display" if:true={loaded} class="slds-p-horizontal_large slds-p-bottom_medium">
+            <div slot="actions" style="float: right;">
+                <span if:true={isFarBehind} class="plan-status-farbehind">{status}</span>
+                <span if:true={isSlightlyBehind} class="plan-status-slightlybehind">{status}</span>
+                <span if:true={isOnPace} class="plan-status-onpace">{status}</span>
+                <span if:true={isAheadOfPace} class="plan-status-aheadofpace">{status}</span>
+            </div>
+
+            <h3 slot="title" class="slds-p-bottom_small">
+                <lightning-icon icon-name="custom:custom48" size="small" class="slds-m-right_x-small"></lightning-icon>
+                {planName}
+            </h3>
+
+            <hr />
+
+            <div class="slds-p-top_medium">
+
+                <!-- PROGRESS BAR -->
+                <div class="slds-grid slds-gutters slds-p-top_small">
+                    <div class="slds-col slds-size_12-of-12" style="text-align: left;">
+                        <strong>Progress to Current Target:</strong>
+                    </div>
+                </div>
+                <div class="slds-grid slds-gutters slds-p-top_x-small slds-p-right_small slds-p-bottom_small">
+                    <div class="slds-col slds-size_11-of-12 progress-bar">
+                        <lightning-progress-bar value={progress} size="large" variant="circular"></lightning-progress-bar>
+                    </div>
+                    <div class="slds-col slds-size_1-of-12" style="text-align: center;">
+                        <span>{progress}%</span>
+                    </div>
+                </div>
+
+                <!-- PLAN DATA -->
+                <div class="slds-grid slds-gutters slds-p-top_medium slds-p-right_small slds-p-bottom_large">
+                    <div class="slds-col slds-size_2-of-12">
+                        <lightning-input type="text" label="Plan Start Date" value={startDate} readonly></lightning-input>
+                    </div>
+                    <div class="slds-col slds-size_2-of-12">
+                        <lightning-input type="text" label="Plan End Date" value={endDate} readonly></lightning-input>
+                    </div>
+                    <div class="slds-col slds-size_2-of-12">
+                        <lightning-input type="text" label="Ahead / Behind" value={aheadBehind} readonly></lightning-input>
+                    </div>
+                    <div class="slds-col slds-size_2-of-12">
+                        <lightning-input type="text" label="Week No." value={weekNo} readonly></lightning-input>
+                    </div>
+                    <div class="slds-col slds-size_2-of-12">
+                        <lightning-input type="text" label="Points Achieved" value={achieved} readonly></lightning-input>
+                    </div>
+                    <div class="slds-col slds-size_2-of-12">
+                        <lightning-input type="text" label="Target Points" value={target} readonly></lightning-input>
+                    </div>
+                </div>
+
+                  <!--
+                <hr />
+
+               DATA PER STAGE 
+                <div class="slds-grid slds-gutters slds-p-top_large">
+                    <div class="slds-col slds-size_12-of-12" style="text-align: left;">
+                        <strong>Progress Per Stage:</strong>
+                    </div>
+                </div>
+                <div class="slds-grid slds-gutters slds-p-top_medium slds-p-right_small slds-p-bottom_small">
+                    <template for:each={planStages} for:item="stage">
+                        <div key={stage.stageId} class="slds-col slds-size_2-of-12">
+                            <span class="slds-p-right_x-small slds-m-vertical_x-small"><lightning-progress-ring value={stage.percentCompleted}> </lightning-progress-ring></span>{stage.percentCompleted}%<br />
+                            <b>{stage.stageName}</b><br />
+                            Status: {stage.status}
+                        </div>
+                    </template>
+                </div>
+                -->
+            </div>
+        </div>
+    </lightning-card>
+    
+</template>

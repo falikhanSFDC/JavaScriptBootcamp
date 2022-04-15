@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+	<types>
+		<members>EmployeeTrainingController</members>
+		<members>EmployeeTrainingTriggerHandler</members>
+		<members>SelectEmployeesController</members>
+		<name>ApexClass</name>
+	</types>
+	<types>
+		<members>EmployeeTrainingTrigger</members>
+		<name>ApexTrigger</name>
+	</types>
+	<types>
+		<members>UNI_Training_Tracker</members>
+		<name>CustomApplication</name>
+	</types>
+	<types>
+		<members>Activity__c</members>
+		<members>Employee_Activity__c</members>
+		<members>Employee_Training__c</members>
+		<members>Employee__c</members>
+		<members>Training_Activity__c</members>
+		<members>Training__c</members>
+		<members>User</members>
+		<name>CustomObject</name>
+	</types>
+	<types>
+		<members>Activity__c</members>
+		<members>Employee_Activity__c</members>
+		<members>Employee_Training__c</members>
+		<members>Employee__c</members>
+		<members>Training_Activity__c</members>
+		<members>Training__c</members>
+		<name>CustomTab</name>
+	</types>
+	<types>
+		<members>Activity_Record_Page</members>
+		<members>Employee_Record_Page</members>
+		<members>Employee_Training_Record_Page</members>
+		<members>Training_Record_Page</members>
+		<members>UNI_Training_Tracker_UtilityBar</members>
+		<name>FlexiPage</name>
+	</types>
+	<types>
+		<members>Activity__c-Activity Layout</members>
+		<members>Employee_Activity__c-Employee Activity Layout</members>
+		<members>Employee_Training__c-Employee Training Layout</members>
+		<members>Employee__c-Employee Layout</members>
+		<members>Training_Activity__c-Training Activity Layout</members>
+		<members>Training__c-Training Layout</members>
+		<name>Layout</name>
+	</types>
+	<types>
+		<members>employeeTrainingStatus</members>
+		<members>selectEmployees</members>
+		<name>LightningComponentBundle</name>
+	</types>
+	<types>
+		<members>UNI_Employee</members>
+		<members>UNI_Manager</members>
+		<name>PermissionSet</name>
+	</types>
+	<types>
+		<members>UNI Standard User</members>
+		<name>Profile</name>
+	</types>
+	<version>53.0</version>
+</Package>
