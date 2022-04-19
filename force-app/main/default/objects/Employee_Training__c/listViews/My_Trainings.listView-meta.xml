@@ -7,6 +7,6 @@
     <columns>Duration__c</columns>
     <columns>Start_Date__c</columns>
     <columns>Total_Minutes__c</columns>
-    <filterScope>Mine</filterScope>
+    <filterScope>Everything</filterScope>
     <label>My Trainings</label>
 </ListView>
