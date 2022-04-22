@@ -1,0 +1,20 @@
+[
+    {
+        "sobject": "Training__c",
+        "saveRefs": true,
+        "resolveRefs": true,
+        "files": ["Training_Data.json"]
+    },
+    {
+        "sobject": "Activity__c",
+        "saveRefs": true,
+        "resolveRefs": true,
+        "files": ["Activity_Data.json"] 
+    },
+    {
+        "sobject": "Training_Activity__c",
+        "saveRefs": true,
+        "resolveRefs": true,
+        "files": ["Training_Activity_Data.json"] 
+    }
+]
