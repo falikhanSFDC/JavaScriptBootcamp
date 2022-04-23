@@ -1,0 +1,44 @@
+{
+    "records": [
+        {
+            "attributes": {
+                "type": "Training__c",
+                "referenceId": "TrainingRef1"
+            },
+            "Name":"Technical Consultant",
+            "Type__c":"Role-Based"
+        }
+        {
+            "attributes": {
+                "type": "Training__c",
+                "referenceId": "TrainingRef2"
+            },
+            "Name":"Product Consultant",
+            "Type__c":"Role-Based"
+        }
+        {
+            "attributes": {
+                "type": "Training__c",
+                "referenceId": "TrainingRef3"
+            },
+            "Name":"DevOps Consultant",
+            "Type__c":"Role-Based"
+        }
+        {
+            "attributes": {
+                "type": "Training__c",
+                "referenceId": "TrainingRef4"
+            },
+            "Name":"Quality Assurance Consultant",
+            "Type__c":"Role-Based"
+        }
+        {
+            "attributes": {
+                "type": "Training__c",
+                "referenceId": "TrainingRef5"
+            },
+            "Name":"Solution Consultant",
+            "Type__c":"Role-Based"
+        }
+    ]
+}
