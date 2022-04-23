@@ -7,7 +7,7 @@
             },
             "Name":"Technical Consultant",
             "Type__c":"Role-Based"
-        }
+        },
         {
             "attributes": {
                 "type": "Training__c",
@@ -15,7 +15,7 @@
             },
             "Name":"Product Consultant",
             "Type__c":"Role-Based"
-        }
+        },
         {
             "attributes": {
                 "type": "Training__c",
@@ -23,7 +23,7 @@
             },
             "Name":"DevOps Consultant",
             "Type__c":"Role-Based"
-        }
+        },
         {
             "attributes": {
                 "type": "Training__c",
@@ -31,7 +31,7 @@
             },
             "Name":"Quality Assurance Consultant",
             "Type__c":"Role-Based"
-        }
+        },
         {
             "attributes": {
                 "type": "Training__c",
