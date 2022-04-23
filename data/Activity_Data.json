@@ -9,7 +9,7 @@
             "Type__c":"Module",
           	"Total_Minutes__c":"120",
             "Trailhead_Points__c":"500"
-        }
+        },
         {
             "attributes": {
                 "type": "Activity__c",
@@ -18,7 +18,7 @@
             "Name":"Connect With Manager",
             "Type__c":"Meeting",
           	"Total_Minutes__c":"60"
-        }
+        },
         {
             "attributes": {
                 "type": "Activity__c",
@@ -27,7 +27,7 @@
             "Name":"Capstone Project",
             "Type__c":"Project",
           	"Total_Minutes__c":"5000"
-        }
+        },
         {
             "attributes": {
                 "type": "Activity__c",
@@ -37,7 +37,7 @@
             "Type__c":"Superbadge",
           	"Total_Minutes__c":"1000",
             "Trailhead_Points__c":"10000"
-        }
+        },
         {
             "attributes": {
                 "type": "Activity__c",
@@ -47,7 +47,7 @@
             "Type__c":"Superbadge",
           	"Total_Minutes__c":"2000",
             "Trailhead_Points__c":"10000"
-        }
+        },
         {
             "attributes": {
                 "type": "Activity__c",
@@ -57,7 +57,7 @@
             "Type__c":"Module",
           	"Total_Minutes__c":"500",
             "Trailhead_Points__c":"2000"
-        }
+        },
         {
             "attributes": {
                 "type": "Activity__c",
