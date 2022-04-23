@@ -1,0 +1,59 @@
+{
+    "records": [
+        {
+            "attributes": {
+                "type": "Training_Activity__c",
+                "referenceId": "TARef1"
+            },
+            "Training__c":"@TrainingRef1",
+          	"Activity__c":"@ActivityRef1"
+        }
+        {
+            "attributes": {
+                "type": "Training_Activity__c",
+                "referenceId": "TARef2"
+            },
+            "Training__c":"@TrainingRef1",
+          	"Activity__c":"@ActivityRef2"
+        }        {
+            "attributes": {
+                "type": "Training_Activity__c",
+                "referenceId": "TARef3"
+            },
+            "Training__c":"@TrainingRef1",
+          	"Activity__c":"@ActivityRef3"
+        }
+        {
+            "attributes": {
+                "type": "Training_Activity__c",
+                "referenceId": "TARef4"
+            },
+            "Training__c":"@TrainingRef1",
+          	"Activity__c":"@ActivityRef4"
+        }
+        {
+            "attributes": {
+                "type": "Training_Activity__c",
+                "referenceId": "TARef5"
+            },
+            "Training__c":"@TrainingRef1",
+          	"Activity__c":"@ActivityRef5"
+        }
+        {
+            "attributes": {
+                "type": "Training_Activity__c",
+                "referenceId": "TARef6"
+            },
+            "Training__c":"@TrainingRef1",
+          	"Activity__c":"@ActivityRef6"
+        }
+        {
+            "attributes": {
+                "type": "Training_Activity__c",
+                "referenceId": "TARef7"
+            },
+            "Training__c":"@TrainingRef1",
+          	"Activity__c":"@ActivityRef7"
+        }
+    ]
+}
