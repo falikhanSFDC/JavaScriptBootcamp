@@ -1,0 +1,72 @@
+{
+    "records": [
+        {
+            "attributes": {
+                "type": "Activity__c",
+                "referenceId": "ActivityRef1"
+            },
+            "Name":"Culture & Benefits",
+            "Type__c":"Module",
+          	"Total_Minutes__c":"120",
+            "Trailhead_Points__c":"500"
+        }
+        {
+            "attributes": {
+                "type": "Activity__c",
+                "referenceId": "ActivityRef2"
+            },
+            "Name":"Connect With Manager",
+            "Type__c":"Meeting",
+          	"Total_Minutes__c":"60"
+        }
+        {
+            "attributes": {
+                "type": "Activity__c",
+                "referenceId": "ActivityRef3"
+            },
+            "Name":"Capstone Project",
+            "Type__c":"Project",
+          	"Total_Minutes__c":"5000"
+        }
+        {
+            "attributes": {
+                "type": "Activity__c",
+                "referenceId": "ActivityRef4"
+            },
+            "Name":"Apex SuperBadge",
+            "Type__c":"Superbadge",
+          	"Total_Minutes__c":"1000",
+            "Trailhead_Points__c":"10000"
+        }
+        {
+            "attributes": {
+                "type": "Activity__c",
+                "referenceId": "ActivityRef5"
+            },
+            "Name":"JavaScript SuperBadge",
+            "Type__c":"Superbadge",
+          	"Total_Minutes__c":"2000",
+            "Trailhead_Points__c":"10000"
+        }
+        {
+            "attributes": {
+                "type": "Activity__c",
+                "referenceId": "ActivityRef6"
+            },
+            "Name":"Agile Methodology",
+            "Type__c":"Module",
+          	"Total_Minutes__c":"500",
+            "Trailhead_Points__c":"2000"
+        }
+        {
+            "attributes": {
+                "type": "Activity__c",
+                "referenceId": "ActivityRef7"
+            },
+            "Name":"User Story Grooming",
+            "Type__c":"Module",
+          	"Total_Minutes__c":"500",
+            "Trailhead_Points__c":"2000"
+        }
+    ]
+}
