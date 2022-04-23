@@ -55,5 +55,161 @@
             "Training__c":"@TrainingRef1",
           	"Activity__c":"@ActivityRef7"
         }
+{
+           "attributes": {
+               "type": "Training_Activity__c",
+               "referenceId": "TARef8"
+           },
+           "Training__c":"@TrainingRef2",
+           "Activity__c":"@ActivityRef1"
+       }
+       {
+           "attributes": {
+               "type": "Training_Activity__c",
+               "referenceId": "TARef9"
+           },
+           "Training__c":"@TrainingRef2",
+           "Activity__c":"@ActivityRef2"
+       }        {
+           "attributes": {
+               "type": "Training_Activity__c",
+               "referenceId": "TARef10"
+           },
+           "Training__c":"@TrainingRef2",
+           "Activity__c":"@ActivityRef3"
+       }
+       {
+           "attributes": {
+               "type": "Training_Activity__c",
+               "referenceId": "TARef11"
+           },
+           "Training__c":"@TrainingRef2",
+           "Activity__c":"@ActivityRef6"
+       }
+       {
+           "attributes": {
+               "type": "Training_Activity__c",
+               "referenceId": "TARef12"
+           },
+           "Training__c":"@TrainingRef2",
+           "Activity__c":"@ActivityRef7"
+       }
+{
+           "attributes": {
+               "type": "Training_Activity__c",
+               "referenceId": "TARef13"
+           },
+           "Training__c":"@TrainingRef3",
+           "Activity__c":"@ActivityRef1"
+       }
+       {
+           "attributes": {
+               "type": "Training_Activity__c",
+               "referenceId": "TARef14"
+           },
+           "Training__c":"@TrainingRef3",
+           "Activity__c":"@ActivityRef2"
+       }        {
+           "attributes": {
+               "type": "Training_Activity__c",
+               "referenceId": "TARef15"
+           },
+           "Training__c":"@TrainingRef3",
+           "Activity__c":"@ActivityRef3"
+       }
+       {
+           "attributes": {
+               "type": "Training_Activity__c",
+               "referenceId": "TARef16"
+           },
+           "Training__c":"@TrainingRef3",
+           "Activity__c":"@ActivityRef6"
+       }
+       {
+           "attributes": {
+               "type": "Training_Activity__c",
+               "referenceId": "TARef17"
+           },
+           "Training__c":"@TrainingRef3",
+           "Activity__c":"@ActivityRef7"
+       }
+{
+           "attributes": {
+               "type": "Training_Activity__c",
+               "referenceId": "TARef18"
+           },
+           "Training__c":"@TrainingRef4",
+           "Activity__c":"@ActivityRef1"
+       }
+       {
+           "attributes": {
+               "type": "Training_Activity__c",
+               "referenceId": "TARef19"
+           },
+           "Training__c":"@TrainingRef4",
+           "Activity__c":"@ActivityRef2"
+       }        {
+           "attributes": {
+               "type": "Training_Activity__c",
+               "referenceId": "TARef20"
+           },
+           "Training__c":"@TrainingRef4",
+           "Activity__c":"@ActivityRef3"
+       }
+       {
+           "attributes": {
+               "type": "Training_Activity__c",
+               "referenceId": "TARef21"
+           },
+           "Training__c":"@TrainingRef4",
+           "Activity__c":"@ActivityRef6"
+       }
+       {
+           "attributes": {
+               "type": "Training_Activity__c",
+               "referenceId": "TARef22"
+           },
+           "Training__c":"@TrainingRef4",
+           "Activity__c":"@ActivityRef7"
+       }
+{
+           "attributes": {
+               "type": "Training_Activity__c",
+               "referenceId": "TARef23"
+           },
+           "Training__c":"@TrainingRef5",
+           "Activity__c":"@ActivityRef1"
+       }
+       {
+           "attributes": {
+               "type": "Training_Activity__c",
+               "referenceId": "TARef24"
+           },
+           "Training__c":"@TrainingRef5",
+           "Activity__c":"@ActivityRef2"
+       }        {
+           "attributes": {
+               "type": "Training_Activity__c",
+               "referenceId": "TARef25"
+           },
+           "Training__c":"@TrainingRef5",
+           "Activity__c":"@ActivityRef3"
+       }
+       {
+           "attributes": {
+               "type": "Training_Activity__c",
+               "referenceId": "TARef26"
+           },
+           "Training__c":"@TrainingRef5",
+           "Activity__c":"@ActivityRef6"
+       }
+       {
+           "attributes": {
+               "type": "Training_Activity__c",
+               "referenceId": "TARef27"
+           },
+           "Training__c":"@TrainingRef5",
+           "Activity__c":"@ActivityRef7"
+       }
     ]
 }
